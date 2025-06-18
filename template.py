@@ -14,6 +14,8 @@ list_of_files = [
     f"{project_name}/entity/__init__.py",
     f"{project_name}/entity/config_entity.py",
     f"{project_name}/constants/__init__.py",
+    "app.py",
+    "requirements.txt",
     "config/config.yaml",
     "params.yaml",
     "schema.yaml",
