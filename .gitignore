@@ -193,6 +193,7 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-/artifacts
-/logs
-/research
+artifacts/
+logs/
+research/
+.vscode/
