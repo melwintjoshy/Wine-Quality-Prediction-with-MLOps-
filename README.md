@@ -147,16 +147,3 @@ python main.py
 
 **Melwin T Joshy**
 [LinkedIn](https://linkedin.com/in/melwintjoshy) | [GitHub](https://github.com/melwintjoshy)
-
----
-
-## 📝 License
-
-This project is open-source under the [MIT License](LICENSE).
-
-```
-
----
-
-Let me know if you want me to generate badges (for build status, Python version, etc.) or include a sample API usage (`app.py`) section too.
-```
