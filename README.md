@@ -13,48 +13,38 @@ This project is an end-to-end machine learning pipeline for predicting wine qual
 
 ```
 
+```
 Mlops-proj1/
 │
 ├── artifacts/                     # Stores intermediate and final outputs
 ├── config/
-│   └── config.yaml               # Global configuration file
+│   └── config.yaml                # Global configuration file
 ├── logs/
-│   └── logging.log              # Runtime logs
-├── research/                    # Jupyter notebooks and experiments
+│   └── logging.log                # Runtime logs
+├── research/                      # Jupyter notebooks and experiments
 ├── src/
-│   ├── components/              # Core modules for each pipeline stage
-│   │   ├── data\_ingestion.py
-│   │   ├── data\_validation.py
-│   │   ├── data\_transformation.py
-│   │   ├── model\_trainer.py
-│   │   └── model\_evaluation.py
-│   ├── config/                  # Configuration schema definitions
-│   │   └── configuration.py
-│   ├── constants/               # Any constant values used
-│   ├── entity/                  # Entity/data class definitions
+│   ├── components/                # Core modules for each pipeline stage
 │   │   ├── data_ingestion.py
 │   │   ├── data_validation.py
 │   │   ├── data_transformation.py
 │   │   ├── model_trainer.py
 │   │   └── model_evaluation.py
-│   ├── logger/                  # Custom logger setup
-│   ├── pipeline/                # Stage-wise execution pipelines
-│   │   ├── data_ingestion_pipeline.py
-│   │   ├── data_validation_pipeline.py
-│   │   ├── data_transformation_pipeline.py
-│   │   ├── model_trainer_pipeline.py
-│   │   └── model_evaluation_pipeline.py
-│   └── utils/                   # Utility functions
-│       └── main\_utils.py
+│   ├── config/                    # Configuration schema definitions
+│   │   └── configuration.py
+│   ├── constants/                 # Constant values
+│   ├── entity/                    # Entity/data class definitions
+│   ├── logger/                    # Custom logger setup
+│   ├── pipeline/                  # Stage-wise execution pipelines
+│   └── utils/                     # Utility functions
 │
-├── main.py                      # Entry point to trigger entire pipeline
-├── params.yaml                  # Model training related hyperparameters
-├── schema.yaml                  # Input feature schema validation
-├── requirements.txt             # Project dependencies
-├── setup.py                     # Package configuration
+├── main.py                        # Entry point to trigger entire pipeline
+├── params.yaml                    # Model hyperparameters
+├── schema.yaml                    # Input feature schema validation
+├── requirements.txt               # Project dependencies
+├── setup.py                       # Package configuration
 └── .gitignore
-
 ```
+
 
 ---
 
