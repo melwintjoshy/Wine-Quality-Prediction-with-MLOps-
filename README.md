@@ -96,8 +96,8 @@ Predict the quality of wine on a scale of 0–10 based on its physicochemical pr
 ### 🚀 Installation
 
 ```bash
-git clone https://github.com/yourusername/mlops-wine-quality.git
-cd mlops-wine-quality
+https://github.com/melwintjoshy/Wine-Quality-Prediction-with-MLOps-.git
+cd Wine-Quality-Prediction-with-MLOp
 python -m venv venv
 venv\Scripts\activate     # For Windows
 pip install -r requirements.txt
