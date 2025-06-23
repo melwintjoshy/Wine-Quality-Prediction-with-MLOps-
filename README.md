@@ -21,7 +21,6 @@ Mlops-proj1/
 │   └── config.yaml                # Global configuration file
 ├── logs/
 │   └── logging.log                # Runtime logs
-├── research/                      # Jupyter notebooks and experiments
 ├── src/
 │   ├── components/                # Core modules for each pipeline stage
 │   │   ├── data_ingestion.py
