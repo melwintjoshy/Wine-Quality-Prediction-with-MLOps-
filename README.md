@@ -49,7 +49,7 @@ Mlops-proj1/
 
 ## 🔍 Problem Statement
 
-Predict the quality of wine on a scale of 0–10 based on its physicochemical properties like acidity, sugar, pH, etc.
+Predict the quality of wine based on its physicochemical properties like acidity, sugar, pH, etc.
 
 ---
 
@@ -122,7 +122,6 @@ python main.py
 * Schema validation
 * Logging and error tracking
 * MLflow experiment tracking
-* Docker support for reproducibility
 
 ---
 
